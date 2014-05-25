@@ -1,4 +1,4 @@
-This is a wrapper for a cryptonote currency command line wallet. It was testing using bitmonerod.exe and the accompanying simplewallet.exe. Although the program has only been tested on Windows 7, I believe it should run on linux as well.
+This is a wrapper for a cryptonote currency command line wallet. It was tested using bitmonerod.exe and the accompanying simplewallet.exe. Although the program has only been tested on Windows 7, I believe it should run on linux as well.
 
 It is still quite a buggy program, but I don't think there should be anyway to lose your coins. 
 
