@@ -2,7 +2,7 @@ import requests
 import json
 import time
 
-serverURL = 'http://localhost:8081/json_rpc'
+serverURL = 'http://localhost:42081/json_rpc'
 
 headers = {'content-type': 'application/json'}
 
@@ -23,7 +23,7 @@ def checklastblockrpccall():
             synced = True
         except:
             time.sleep(2)
-            print "Waiting for bitmonerod client to sync with network..."
+            print "Waiting for ducknoted client to sync with network..."
 
         try:
             if output[u'error'][u'message'] == 'Core is busy':

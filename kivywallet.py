@@ -7,7 +7,6 @@ from kivy.uix.textinput import TextInput
 from kivy.properties import ObjectProperty
 from kivy.core.clipboard import Clipboard
 
-from functions.bitmonerodloader import bitmonerodloader
 from functions.checkbalance import checkbalancerpccall
 from functions.transferfunds import transferfundsrpccall
 from functions.simplewalletloader import simplewalletloader
@@ -41,8 +40,8 @@ class RootWidget(GridLayout):
         super(RootWidget, self).__init__(**kwargs)
 
     def launchdaemon(self):
-        """launch the bitmonerod daemon in rpc mode"""
-        bitmonerodloader()
+        """launch the ducknoted daemon in rpc mode"""
+        ducknotedloader()
 
     def launchwallet(self):
         """create wallet if necessary and then launch in rpc mode"""

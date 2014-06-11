@@ -15,7 +15,7 @@
     BoxLayout:
         size_hint_y: 0.4
         Label:
-            text: "[b]Kivy Monero/Cryptonote GUI RPC Wallet[/b]"
+            text: "[b]duckNote KWAG = Kivy WAllet GUI RPC wrapper[/b]"
             markup: True
             font_size: 20
 
@@ -25,16 +25,9 @@
     BoxLayout:
         size_hint_y: 0.35
         Label:
-        Button:
-            size_hint_x: 1.7
-            text: "Launch bitmonerod daemon"
-            on_press: root.launchdaemon()
-        Label:
-        Button:
-            size_hint_x: 1.7
-            text: "Launch simplewallet daemon"
-            on_press: root.launchwallet()
-        Label:
+            text: "Make sure that [b]ducknoted daemon with --rpc-bind-port=42081 and simplewallet daemon with --rpc-bind-port=42082 are running[/b] "
+            markup: True
+            font_size: 12
 
     BoxLayout:
         size_hint_y: 0.2
@@ -141,7 +134,7 @@
         padding: 10,0,40,0
         size_hint_y: 0.3
         Label:
-            text: "Amount MRO:"
+            text: "Amount duckNote:"
             size_hint_x: 0.2
         TextInput:
             id: amount_input

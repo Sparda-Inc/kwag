@@ -1,7 +1,7 @@
 import requests
 import json
 
-serverURL = 'http://localhost:8082/json_rpc'
+serverURL = 'http://localhost:42082/json_rpc'
 
 
 def checkbalancerpccall():
@@ -29,7 +29,7 @@ def checkbalancerpccall():
 
 
     except:
-        #Return out of sync if bitmonerod is not ready
+        #Return out of sync if ducknoted is not ready
         return '[color=ff0000]out of sync[/color]', '[color=ff0000]out of sync[/color]'
 
 

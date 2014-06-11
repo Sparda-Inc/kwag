@@ -1,7 +1,7 @@
 import requests
 import json
 
-serverURL = 'http://localhost:8082/json_rpc'
+serverURL = 'http://localhost:42082/json_rpc'
 
 payload = json.dumps({
     "jsonrpc": "2.0",
