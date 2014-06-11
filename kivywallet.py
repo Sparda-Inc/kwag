@@ -9,7 +9,6 @@ from kivy.core.clipboard import Clipboard
 
 from functions.checkbalance import checkbalancerpccall
 from functions.transferfunds import transferfundsrpccall
-from functions.simplewalletloader import simplewalletloader
 
 from sys import argv
 from multiprocessing import Process, Queue
