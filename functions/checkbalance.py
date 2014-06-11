@@ -19,8 +19,8 @@ def checkbalancerpccall():
         output = json.loads(resp.text)
 
         #Parse json data to get balance info
-        rawbalance = str(output[u'result'][u'balance']/1e12)
-        rawunlockedbalance = str(output[u'result'][u'unlocked_balance']/1e12)
+        rawbalance = str(output[u'result'][u'balance']/1e8)
+        rawunlockedbalance = str(output[u'result'][u'unlocked_balance']/1e8)
 
         #Format data for kivy
         balance = '[color=00ff00]'+rawbalance+'[/color]'
