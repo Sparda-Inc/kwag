@@ -1,5 +1,8 @@
 kwag = "kivy wallet gui" RPC wrapper
-This is initial experimental kivy based version of duckNote GUI. KWAG needs working ./ducknoted and ./simplewallet with open RPC ports. 
+
+This is initial experimental kivy based version of duckNote GUI. 
+
+KWAG needs working ./ducknoted and ./simplewallet with open RPC ports. 
 
 Possible use cases:
 
