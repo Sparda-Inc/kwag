@@ -7,7 +7,7 @@ serverURL = 'http://localhost:42082/json_rpc'
 
 def transferfundsrpccall(amount, address, mixin):
     """function to transfer funds to a single address"""
-    atomicamount = c_uint64(int((float(amount)*1e12)-1e6))
+    atomicamount = c_uint64(int((float(amount)*1e8)-1e6))
     address = str(address)
     mixin = int(mixin)
     mro_fee = c_uint64(int(1e6))
