@@ -14,11 +14,12 @@ sudo add-apt-repository ppa:kivy-team/kivy;sudo apt-get update;sudo apt-get inst
 </code>
 
 To run kwag:
-1.Run ducknoted with <code>--rpc-bind-port=42081</code>
-2.Run simplewallet you want to use with KWAG with <code>--rpc-bind-port=42082</code>
-3.Unzip KWAG to your "ducknote" folder or any folder where ducknoted, simplewallet and probably your wallet files are located.
-4.Run kivywallet.py with <code>python kivywallet.py</code> command. Make sure you got both ducknoted and simplewallet syncronized. 
-5.Use at your own risk, there is NO WARRANTY, software is experimental. 
+
+1. Run ducknoted with <code>--rpc-bind-port=42081</code>
+2. Run simplewallet you want to use with KWAG with <code>--rpc-bind-port=42082</code>
+3. Unzip KWAG to your "ducknote" folder or any folder where ducknoted, simplewallet and probably your wallet files are located.
+4. Run kivywallet.py with <code>python kivywallet.py</code> command. Make sure you got both ducknoted and simplewallet syncronized. 
+5. Use at your own risk, there is NO WARRANTY, software is experimental. 
 
 Under development.
 
@@ -26,9 +27,9 @@ NOTE:
 KWAG is kivy based, and can be loaded on any OS/device. 
 E.G. follow python-android instructions and try to run it on your android device. You can control remote wallet via GUI application.
 
-https://github.com/kivy
-https://github.com/kivy/buildozer
-http://kivy.org/docs/guide/android.html
-http://kivy.org/docs/guide/packaging-android.html
+1. https://github.com/kivy 
+2. https://github.com/kivy/buildozer
+3. http://kivy.org/docs/guide/android.html
+4. http://kivy.org/docs/guide/packaging-android.html
 
 
